@@ -1,0 +1,10 @@
+$iopadmap$assignment1.a  10   3  0  # set_io a  2
+$iopadmap$assignment1.b  12   3  0  # set_io b  3
+$iopadmap$assignment1.c  14   3  0  # set_io c  64
+$iopadmap$assignment1.d  16   3  0  # set_io d  62
+$iopadmap$assignment1.e  20   3  0  # set_io e  61
+$iopadmap$assignment1.f  22   3  0  # set_io f  60
+$iopadmap$assignment1.g  24   3  0  # set_io g  59
+x      26   3  0  # set_io x  57
+y      28   3  0  # set_io y  56
+z      30   3  0  # set_io z  55

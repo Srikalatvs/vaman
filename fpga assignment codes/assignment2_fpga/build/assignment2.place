@@ -1,0 +1,19 @@
+Netlist_File: assignment2.net Netlist_ID: SHA256:b4f044e31946aae34b7a81d7bb918f9ca81f044b6b941ece8f8d83b2885cdb20
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+a_LUT4_O.c_frag	28	7	0	#0
+$iopadmap$assignment2.a	10	3	0	#1
+$iopadmap$assignment2.d	16	3	0	#2
+$iopadmap$assignment2.e	20	3	0	#3
+$iopadmap$assignment2.f	22	3	0	#4
+z		32	3	0	#5
+x		28	3	0	#6
+y		30	3	0	#7
+w		26	3	0	#8
+$iopadmap$assignment2.b	12	3	0	#9
+$iopadmap$assignment2.c	14	3	0	#10
+$iopadmap$assignment2.g	24	3	0	#11
+$false		3	1	0	#12
+$true		2	1	0	#13
