@@ -1,0 +1,12 @@
+set_io a  2
+set_io b  3
+set_io c  64
+set_io d  62
+set_io e  61
+set_io f  60
+set_io g  59
+
+set_io Z  57
+set_io Y  56
+set_io X  55
+set_io W  54

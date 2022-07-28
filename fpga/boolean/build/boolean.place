@@ -1,0 +1,25 @@
+Netlist_File: boolean.net Netlist_ID: SHA256:ad51084fd54f5fea01378e982daa54818a3b47cc702225fcaab7a0e9670b19fa
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+a_LUT4_O.c_frag	26	4	0	#0
+c_LUT4_O.c_frag	27	7	0	#1
+d_LUT4_O.c_frag	27	4	0	#2
+e_LUT4_O.c_frag	28	4	0	#3
+g_LUT4_O.c_frag	28	7	0	#4
+b_LUT4_O.c_frag	30	4	0	#5
+f_LUT4_O.c_frag	26	7	0	#6
+$iopadmap$boolean.a	10	3	0	#7
+$iopadmap$boolean.c	14	3	0	#8
+$iopadmap$boolean.d	16	3	0	#9
+$iopadmap$boolean.e	20	3	0	#10
+$iopadmap$boolean.g	24	3	0	#11
+$iopadmap$boolean.b	12	3	0	#12
+$iopadmap$boolean.f	22	3	0	#13
+W		32	3	0	#14
+X		30	3	0	#15
+Y		28	3	0	#16
+Z		26	3	0	#17
+$false		3	1	0	#18
+$true		2	1	0	#19

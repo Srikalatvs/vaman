@@ -1,0 +1,229 @@
+#Timing report of worst 7 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: W.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:b.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+W.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.W.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.W.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+b_LUT4_O.c_frag.TSL[0] (C_FRAG)                                      4.751    15.709
+b_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.593    17.302
+$iopadmap$boolean.b.O_DAT[0] (BIDIR_CELL)                            8.077    25.379
+$iopadmap$boolean.b.O_PAD_$out[0] (BIDIR_CELL)                       9.809    35.188
+out:b.outpad[0] (.output)                                            0.000    35.188
+data arrival time                                                             35.188
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -35.188
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -35.188
+
+
+#Path 2
+Startpoint: W.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:c.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+W.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.W.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.W.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+c_LUT4_O.c_frag.TSL[0] (C_FRAG)                                      6.207    17.165
+c_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.593    18.758
+$iopadmap$boolean.c.O_DAT[0] (BIDIR_CELL)                            6.352    25.110
+$iopadmap$boolean.c.O_PAD_$out[0] (BIDIR_CELL)                       9.809    34.919
+out:c.outpad[0] (.output)                                            0.000    34.919
+data arrival time                                                             34.919
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -34.919
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -34.919
+
+
+#Path 3
+Startpoint: W.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:f.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+W.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.W.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.W.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+f_LUT4_O.c_frag.BSL[0] (C_FRAG)                                      6.493    17.451
+f_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.462    18.913
+$iopadmap$boolean.f.O_DAT[0] (BIDIR_CELL)                            5.611    24.524
+$iopadmap$boolean.f.O_PAD_$out[0] (BIDIR_CELL)                       9.809    34.333
+out:f.outpad[0] (.output)                                            0.000    34.333
+data arrival time                                                             34.333
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -34.333
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -34.333
+
+
+#Path 4
+Startpoint: Y.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:a.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+Y.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.Y.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.Y.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+a_LUT4_O.c_frag.TSL[0] (C_FRAG)                                      4.830    15.788
+a_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.593    17.381
+$iopadmap$boolean.a.O_DAT[0] (BIDIR_CELL)                            6.640    24.021
+$iopadmap$boolean.a.O_PAD_$out[0] (BIDIR_CELL)                       9.809    33.830
+out:a.outpad[0] (.output)                                            0.000    33.830
+data arrival time                                                             33.830
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -33.830
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -33.830
+
+
+#Path 5
+Startpoint: X.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:d.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+X.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.X.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.X.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+d_LUT4_O.c_frag.TAB[0] (C_FRAG)                                      4.515    15.473
+d_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.437    16.910
+$iopadmap$boolean.d.O_DAT[0] (BIDIR_CELL)                            6.139    23.049
+$iopadmap$boolean.d.O_PAD_$out[0] (BIDIR_CELL)                       9.809    32.858
+out:d.outpad[0] (.output)                                            0.000    32.858
+data arrival time                                                             32.858
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -32.858
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -32.858
+
+
+#Path 6
+Startpoint: X.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:g.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+X.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.X.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.X.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+g_LUT4_O.c_frag.TSL[0] (C_FRAG)                                      4.831    15.789
+g_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.593    17.382
+$iopadmap$boolean.g.O_DAT[0] (BIDIR_CELL)                            5.611    22.993
+$iopadmap$boolean.g.O_PAD_$out[0] (BIDIR_CELL)                       9.809    32.802
+out:g.outpad[0] (.output)                                            0.000    32.802
+data arrival time                                                             32.802
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -32.802
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -32.802
+
+
+#Path 7
+Startpoint: X.inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:e.outpad[0] (.output clocked by virtual_io_clock)
+Path Type : setup
+
+Point                                                                 Incr      Path
+------------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+input external delay                                                 0.000     0.000
+X.inpad[0] (.input)                                                  0.000     0.000
+$iopadmap$boolean.X.I_PAD_$inp[0] (BIDIR_CELL)                       0.000     0.000
+$iopadmap$boolean.X.I_DAT[0] (BIDIR_CELL)                           10.958    10.958
+e_LUT4_O.c_frag.BAB[0] (C_FRAG)                                      4.834    15.792
+e_LUT4_O.c_frag.CZ[0] (C_FRAG)                                       1.305    17.097
+$iopadmap$boolean.e.O_DAT[0] (BIDIR_CELL)                            4.824    21.921
+$iopadmap$boolean.e.O_PAD_$out[0] (BIDIR_CELL)                       9.809    31.730
+out:e.outpad[0] (.output)                                            0.000    31.730
+data arrival time                                                             31.730
+
+clock virtual_io_clock (rise edge)                                   0.000     0.000
+clock source latency                                                 0.000     0.000
+clock uncertainty                                                    0.000     0.000
+output external delay                                                0.000     0.000
+data required time                                                             0.000
+------------------------------------------------------------------------------------
+data required time                                                             0.000
+data arrival time                                                            -31.730
+------------------------------------------------------------------------------------
+slack (VIOLATED)                                                             -31.730
+
+
+#End of timing report
