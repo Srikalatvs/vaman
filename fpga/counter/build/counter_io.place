@@ -1,0 +1,9 @@
+#Block Name x   y   z    pcf_line
+#----- --  --  -    ----
+$iopadmap$counter.a  10   3  0  # set_io a  2
+$iopadmap$counter.b  12   3  0  # set_io b  3
+$iopadmap$counter.c  14   3  0  # set_io c  64
+$iopadmap$counter.d  16   3  0  # set_io d  62
+$iopadmap$counter.e  20   3  0  # set_io e  61
+$iopadmap$counter.f  22   3  0  # set_io f  60
+$iopadmap$counter.g  24   3  0  # set_io g  59
